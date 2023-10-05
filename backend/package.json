@@ -5,6 +5,14 @@
     "scripts": {
         "start": "node index.js"
     },
+
+    "scripts": {
+  "start": "PORT=8081 react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
+  "eject": "react-scripts eject"
+},
+
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.1",
